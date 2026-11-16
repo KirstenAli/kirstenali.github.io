@@ -1,0 +1,16 @@
+:root {
+  color-scheme: dark;
+  background: #100c19;
+  color: #f8f4ff;
+  font: 1.0625rem/1.65 system-ui, sans-serif;
+}
+body { margin: 0; }
+main { margin: 0 auto; max-width: 43rem; padding: 3rem 1.5rem; }
+h1, h2 { line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 1rem 0; letter-spacing: -.045em; }
+h2 { font-size: 1.25rem; margin: 2rem 0 .4rem; }
+p { color: #ddd2e9; margin: 0 0 1rem; }
+a { color: #d1a9ff; text-underline-offset: .2em; }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+.back { display: block; margin-bottom: 1.5rem; }
+.icon { display: block; border-radius: 22%; }
